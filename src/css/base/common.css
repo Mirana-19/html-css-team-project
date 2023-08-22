@@ -19,3 +19,35 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.title {
+  color: var(--blue);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.41;
+  text-transform: uppercase;
+}
+
+.main-btn {
+  min-width: 224px;
+  padding: 17px 65px;
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+
+  line-height: 1.5;
+
+  /* To add later
+   transition: background-color: ; */
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--active);
+}
+
+@media only screen and (min-width: 768px) {
+  .main-btn {
+    line-height: 1.33;
+  }
+}
