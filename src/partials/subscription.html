@@ -1,0 +1,62 @@
+<section class="section-subscription">
+  <div class="container">
+    <h2 class="title title-subscription">Newsletter</h2>
+    <p class="subscription-text">Every week we will send you new designs and information about sales.</p>
+    <form class="form-container">
+      <div class="user-container">
+        <label for="user-name" class="form-label"></label>
+
+        <div class="form-name">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            required
+            placeholder="Name"
+            id="user-name"
+          />
+        </div>
+      </div>
+
+      <div class="form-container">
+        <label for="user-email" class="form-label" ></label>
+
+        <div class="form-mail form-icon-wrap">
+          <input
+            class="form-input"
+            type="email"
+            name="form-email"
+            required
+            minlength="2"
+            maxlength="16"
+            placeholder="E-mail"
+            id="user-email"
+          />
+          <svg class="form-icon" width="20" height="20">
+            <use href="../img/sprite.svg#icon-error"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="checkbox-conteiner">
+        <input type="checkbox"
+        name="user-privacy"
+        value="true"
+        id="user-privacy"
+        class="visually-hidden form-checkbox">
+        <label for="user-privacy" class="checkbox-text">
+            <span class="form-icon-span"><svg class="icon-check" width="13" height="13">
+              <use href="../img/sprite.svg#icon-check"></use>
+            </svg></span>
+            Agree to subscribe to the newsletter</label>
+      </div>
+      <button class="main-btn" type="submit">Send</button>
+    </form>
+    <div class="subscription-image">
+      <img
+        src="../img/newsletter/img-1_mob.jpg"
+        srcset="../img/newsletter/img-1_mob@2x.jpg"
+        alt="Shot of a blue sofa near a small round table with a book and two vases with yellow plants on it"
+      />
+    </div>
+  </div>
+</section>

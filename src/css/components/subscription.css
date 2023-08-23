@@ -1,0 +1,129 @@
+.section-subscription {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.title-subscription {
+    text-align: center;
+    text-transform: uppercase;
+}
+.subscription-text {
+    color: var(--blue);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.form-name {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block; 
+  
+}
+.form-input {
+    color: var(--light-gray); 
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.48px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--gray);
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    height: 40px;
+}
+.form-input:hover {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+.form-container {
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-mail {
+    position: relative;
+}
+
+.form-mail input:valid + .form-icon {
+    display: none;
+}
+
+.form-icon {
+    position: absolute;
+    top: 50%;
+  right: 20px;
+  transform: translateY(-50%) scale(0.2);
+  
+  opacity: 0;
+  pointer-events: none;
+  fill: #E74A3B;
+
+  transition: opacity 400ms;
+}
+
+.form-input:not(:placeholder-shown):required:invalid + .form-icon {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+    color: #E74A3B;
+}
+.form-input:not(:placeholder-shown):required:invalid {
+    color: #E74A3B;
+    border: 1px solid #E74A3B
+}
+.form-input:not(:placeholder-shown):required:valid {
+    color: var(--blue);
+    border: 1px solid var(--blue)
+}
+
+.checkbox-conteiner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+    
+}
+
+.form-icon-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-checkbox:checked {
+ background-color: var(--blue);
+ border: none;
+}
+
+.checkbox-text {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-flex;
+}
+
+.checkbox-text span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--dark-grey);
+    margin-right: 8px;
+    
+}
+.form-checkbox:checked + .checkbox-text span {
+    background-color: var(--blue);
+    border: none;
+}
+
+    .subscription-image {
+    margin-top: 30px;
+}
