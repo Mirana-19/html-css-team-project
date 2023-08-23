@@ -61,7 +61,7 @@ body {
   }
 }
 /* logo */
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
   .logo {
     width: 127px;
     height: 16px;
