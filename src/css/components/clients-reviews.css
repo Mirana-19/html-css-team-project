@@ -1,0 +1,128 @@
+/* ----------SECTION CLIENT REVIEWS------------- */
+.client-reviews-section {
+  background-color: var(--section-bg);
+}
+.client-reviews-container {
+  padding-top: 35px;
+  padding-bottom: 36px;
+  color: var(--blue);
+  background-color: var(--section-bg);
+}
+@media only screen and (min-width: 768px) {
+  .client-reviews-container {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .client-reviews-container {
+    padding-top: 79px;
+    padding-bottom: 41px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+.client-reviews-container .title {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .client-reviews-container .title {
+    font-size: 32px;
+  }
+}
+.client-reviews-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .client-reviews-list {
+    gap: 16px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .client-reviews-list {
+    gap: 24px;
+  }
+}
+.client-reviews-item {
+  border-radius: 8px;
+  background: var(--white, #fff);
+  background-color: var(--white);
+  display: none;
+  padding: 24px;
+}
+@media only screen and (min-width: 1440px) {
+  .client-reviews-item {
+    padding: 32px;
+  }
+}
+.client-reviews-item:first-child {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .client-reviews-item:nth-child(2n) {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .client-reviews-item:nth-child(3n) {
+    display: block;
+  }
+}
+
+.client-reviews-item-block {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .client-reviews-item-block {
+    margin-bottom: 14px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .client-reviews-item-block {
+    margin-bottom: 16px;
+  }
+}
+.client-reviews-text-wrapper {
+}
+.client-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .clients-name {
+    font-size: 20px;
+  }
+}
+.clients-last-visit {
+  font-size: 14px;
+  line-height: 1.3;
+  opacity: 0.8;
+}
+@media only screen and (min-width: 768px) {
+  .clients-last-visit {
+    font-size: 16px;
+  }
+}
+.client-review-text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+@media only screen and (min-width: 768px) {
+  .client-review-text {
+    font-size: 18px;
+  }
+}
