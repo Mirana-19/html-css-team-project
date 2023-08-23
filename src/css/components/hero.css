@@ -37,9 +37,11 @@
 
 .hero-text {
   margin-bottom: 28px;
+  font-size: 16px;
 }
 @media only screen and (min-width: 768px) {
   .hero-text {
+    font-size: 18px;
     margin-bottom: 30px;
   }
 }
