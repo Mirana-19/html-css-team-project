@@ -12,18 +12,11 @@
 }
 
 .about-container {
-  padding: 0px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-container {
-    padding: 0px 32px;
-  }
 }
 
 .about-info-wrapper {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-bottom: 64px;
 }
 
