@@ -1,0 +1,54 @@
+/* -----------SECTION PRICE--------- */
+.price-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .price-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .price-container {
+    padding: 50px 172px;
+  }
+}
+.price-container-block {
+  border-top: 1px solid var(--blue);
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.price-container-block:last-child {
+  border-bottom: 1px solid var(--blue);
+}
+.price-container-block-title {
+  color: var(--blue);
+  font-size: 32px;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 320px) {
+  .price-container-block-title {
+    font-size: 28px;
+  }
+}
+
+.price-container-block:hover .price-container-block-title::before,
+.price-container-block:focus .price-container-block-title::before {
+  display: block;
+  content: '';
+  width: 35px;
+  height: 2px;
+  background-color: var(--blue);
+  margin-right: 15px;
+}
+.price-container-block-price {
+  color: var(--blue);
+  font-weight: 700;
+  margin-left: auto;
+}
