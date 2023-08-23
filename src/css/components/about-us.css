@@ -4,6 +4,7 @@
 }
 
 .container {
+  margin-bottom: 64px;
 }
 
 .about-title {
@@ -53,7 +54,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 64px;
   gap: 30px;
 }
 
