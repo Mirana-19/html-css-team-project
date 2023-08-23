@@ -20,7 +20,7 @@ body {
   overflow: hidden;
 }
 
-.title {
+.subtitle {
   color: var(--blue);
   font-size: 32px;
   font-weight: 400;
@@ -29,12 +29,16 @@ body {
 }
 
 .main-btn {
+  display: inline-block;
+  height: 48px;
   min-width: 224px;
-  padding: 17px 65px;
+  padding: 12px 65px;
+
   color: var(--white);
   background-color: var(--blue);
   border: none;
 
+  font-size: 16px;
   line-height: 1.5;
 
   /* To add later
@@ -48,6 +52,10 @@ body {
 
 @media only screen and (min-width: 768px) {
   .main-btn {
+    height: 50px;
+    padding: 17px 65px;
+
+    font-size: 18px;
     line-height: 1.33;
   }
 }
