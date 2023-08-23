@@ -32,12 +32,7 @@ footer {
 .footer-logo {
   fill: var(--white);
 }
-@media only screen and (min-width: 767.98px) {
-  .footer-logo {
-    width: 127px;
-    height: 16px;
-  }
-}
+
 .footer-nav {
     margin-bottom: 36px;
 }
