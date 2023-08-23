@@ -1,7 +1,6 @@
 .about-section {
-  background-color: var(--white);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  background-color: var(--section-bg);
+  padding-top: 64px;
 }
 
 .container {
