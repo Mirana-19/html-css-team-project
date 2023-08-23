@@ -1,3 +1,9 @@
+@media only screen and (min-width: 768px) {
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 50px;
+  }
+}
 @media only screen and (max-width: 767.98px) {
   .bg-image-container {
     height: 717px;
@@ -6,6 +12,16 @@
     background-image: url(../../img/hero/img-1_mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .bg-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+    position: relative;
   }
 }
 
@@ -23,6 +39,9 @@
 
 @media only screen and (min-width: 768px) {
   .hero-title {
+    position: absolute;
+    top: 0;
+    left: 32px;
     width: 648px;
     margin-bottom: 0;
     font-size: 50px;
@@ -41,7 +60,36 @@
 }
 @media only screen and (min-width: 768px) {
   .hero-text {
+    width: 312px;
     font-size: 18px;
     margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-bg-thumb-1,
+  .hero-bg-thumb-2 {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-bg-thumb-1 {
+    align-self: flex-end;
+    background-image: url(../../img/hero/img-1_tab.jpg);
+    width: 308px;
+    height: 329px;
+
+    background-repeat: no-repeat;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-bg-thumb-2 {
+    background-image: url(../../img/hero/img-2_tab.jpg);
+    width: 364px;
+    height: 531px;
   }
 }
