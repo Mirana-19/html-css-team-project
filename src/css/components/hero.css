@@ -1,0 +1,54 @@
+@media only screen and (max-width: 767.98px) {
+  .bg-image-container {
+    height: 717px;
+    padding-top: 140px;
+    padding-bottom: 313px;
+    background-image: url(../../img/hero/img-1_mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.hero-title {
+  width: 285px;
+  margin-bottom: 14px;
+
+  font-family: Playfair Display;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  font-size: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    width: 648px;
+    margin-bottom: 0;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .hero-bg-thumb {
+    display: none;
+  }
+}
+
+.hero-text {
+  margin-bottom: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    margin-bottom: 30px;
+  }
+}
+
+div,
+ul,
+h1,
+h2,
+p,
+a {
+  outline: 1px solid red;
+}

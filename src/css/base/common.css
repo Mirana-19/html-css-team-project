@@ -4,7 +4,7 @@ body {
 
   line-height: 1.5;
   /* letter-spacing: 0em; */
-  /* font color */
+  color: var(--blue);
 }
 
 .visually-hidden {
@@ -40,6 +40,7 @@ body {
 
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
 
   /* To add later
    transition: background-color: ; */
