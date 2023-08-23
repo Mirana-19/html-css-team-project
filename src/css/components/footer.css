@@ -2,26 +2,72 @@ footer {
   background-color: var(--blue);
 }
 
-.container {
-    padding-top: 36px;
-    padding-bottom: 16px;
+.footer-container {
+  padding-top: 36px;
+  padding-bottom: 16px;
+  position: relative;
+}
+
+@media only screen and (min-width: 767.98px) {
+  .footer-container {
+    padding-bottom: 36px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer-container {
+    padding: 36px 60px;
+  }
 }
 .footer-first {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+@media only screen and (min-width: 767.98px) {
+  .footer-first {
+    margin-bottom: 32px;
+  }
 }
 .footer-logo {
+  fill: var(--white);
+}
+@media only screen and (min-width: 767.98px) {
+  .footer-logo {
+    width: 127px;
+    height: 16px;
+  }
 }
 .footer-nav {
+    margin-bottom: 36px;
+}
+@media only screen and (min-width: 767.98px) {
+  .footer-nav {
+    position: absolute;
+    top: 36px;
+    left: 400px;
+    padding: 8px;
+    margin-bottom: 0px;
 
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .footer-nav {
+    top: 44px;
+    left: 404px;
+    padding: 8px;
+  }
 }
 .footer-nav-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+@media only screen and (min-width: 1440px) {
+    .footer-nav-list {
+        flex-direction: row;
+        gap: 30px;
+      }
 }
 .footer-nav-item {
 }
@@ -29,34 +75,59 @@ footer {
   color: var(--white);
   font-size: 16px;
 }
+@media only screen and (min-width: 767.98px) {
+  .footer-nav-link {
+    font-size: 18px;
+  }
+  
+}
 .footer-soc-list {
-    display: flex;
-    gap: 16px;
+  display: flex;
+  gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+  .footer-soc-list {
+    gap: 30px;
+  }
 }
 .footer-soc-item {
 }
 .footer-soc-link {
 }
-.footer-facebook {
+.footer-icons {
   fill: var(--white);
 }
-.footer-instagram {
-  fill: var(--white);
-  width: 28px;
-  height: 28px;
-}
-.footer-youtube {
-  fill: var(--white);
+@media only screen and (min-width: 767.98px) {
+  .footer-icons {
+    width: 40px;
+    height: 40px;
+  }
 }
 .footer-address {
 }
+@media only screen and (min-width: 1440px) {
+    .footer-address {
+        display: flex;
+        margin-bottom: 35px;
+    }
+}
 
 .footer-address-map {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 35px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 35px;
+}
+@media only screen and (min-width: 767.98px) {
+  .footer-address-map {
+    margin-bottom: 64px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+    .footer-address-map {
+        margin-bottom: 0px;
+        margin-right: 87px;
+      }
 }
 .address-map-item {
 }
@@ -67,12 +138,29 @@ footer {
   line-height: normal;
   letter-spacing: 0.01em;
 }
+@media only screen and (min-width: 767.98px) {
+  .address-map-link {
+    font-size: 19px;
+  }
+}
 
-.foter-address-tel {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 64px;
+.footer-address-tel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 64px;
+}
+@media only screen and (min-width: 767.98px) {
+  .footer-address-tel {
+    margin-bottom: 24px;
+    
+  }
+}
+@media only screen and (min-width: 1440px) {
+    .footer-address-tel {
+        margin-bottom: 0px;
+        margin-right: 82px;
+      }
 }
 .address-tel-item {
 }
@@ -83,8 +171,30 @@ footer {
   line-height: normal;
   letter-spacing: 0.01em;
 }
+@media only screen and (min-width: 767.98px) {
+    .address-tel-link {
+      font-size: 19px;
+    }
+  }
 .address-email {
   display: none;
+}
+@media only screen and (min-width: 767.98px) {
+  .address-email {
+    display: block;
+    color: var(--white);
+    font-size: 19px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.01em;
+    margin-bottom: 64px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+    .address-email {
+        margin-bottom: 0px;
+
+    }
 }
 
 .footer-box {
@@ -97,6 +207,14 @@ footer {
   letter-spacing: 0.1em;
   text-align: center;
 }
+@media only screen and (min-width: 767.98px) {
+  .footer-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+  }
+}
+
 .footer-service {
 }
 .footer-link {
