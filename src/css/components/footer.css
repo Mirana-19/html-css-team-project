@@ -1,0 +1,106 @@
+footer {
+  background-color: var(--blue);
+}
+
+.container {
+    padding-top: 36px;
+    padding-bottom: 16px;
+}
+.footer-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.footer-logo {
+}
+.footer-nav {
+
+}
+.footer-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 36px;
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+  color: var(--white);
+  font-size: 16px;
+}
+.footer-soc-list {
+    display: flex;
+    gap: 16px;
+}
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+.footer-facebook {
+  fill: var(--white);
+}
+.footer-instagram {
+  fill: var(--white);
+  width: 28px;
+  height: 28px;
+}
+.footer-youtube {
+  fill: var(--white);
+}
+.footer-address {
+}
+
+.footer-address-map {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 35px;
+
+}
+.address-map-item {
+}
+.address-map-link {
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.01em;
+}
+
+.foter-address-tel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 64px;
+}
+.address-tel-item {
+}
+.address-tel-link {
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.01em;
+}
+.address-email {
+  display: none;
+}
+
+.footer-box {
+}
+.footer-text {
+  opacity: 0.6;
+  color: var(--white);
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.footer-service {
+}
+.footer-link {
+  text-decoration-line: underline;
+}
+.footer-privacy {
+}
