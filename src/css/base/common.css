@@ -59,3 +59,10 @@ body {
     line-height: 1.33;
   }
 }
+/* logo */
+@media only screen and (min-width: 767.98px) {
+  .logo {
+    width: 127px;
+    height: 16px;
+  }
+}
