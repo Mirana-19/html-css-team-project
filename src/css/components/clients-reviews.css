@@ -1,51 +1,41 @@
 /* ----------SECTION CLIENT REVIEWS------------- */
-.client-reviews-section {
+.client-reviews {
   background-color: var(--section-bg);
-}
-.client-reviews-container {
-  padding-top: 35px;
+  padding-top: 36px;
   padding-bottom: 36px;
-  color: var(--blue);
-  background-color: var(--section-bg);
 }
 @media only screen and (min-width: 768px) {
-  .client-reviews-container {
-    padding-top: 36px;
-    padding-bottom: 36px;
-    padding-right: 32px;
-    padding-left: 32px;
+  .client-reviews {
+    /* padding-top: 36px;
+    padding-bottom: 36px; */
+    /* padding-right: 32px;
+    padding-left: 32px; */
   }
 }
 @media only screen and (min-width: 1440px) {
-  .client-reviews-container {
+  .client-reviews {
     padding-top: 79px;
     padding-bottom: 41px;
-    padding-right: 60px;
-    padding-left: 60px;
+    /* padding-right: 60px;
+    padding-left: 60px; */
   }
 }
-.client-reviews-container .title {
-  font-size: 28px;
+.client-reviews-container {
+  color: var(--blue);
+  background-color: var(--section-bg);
+}
+
+.client-reviews-container .subtitle {
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
-
   margin-bottom: 30px;
 }
-@media only screen and (min-width: 768px) {
-  .client-reviews-container .title {
-    font-size: 32px;
-  }
-}
+
 .client-reviews-list {
   display: flex;
   flex-wrap: nowrap;
   gap: 16px;
-}
-@media only screen and (min-width: 768px) {
-  .client-reviews-list {
-    gap: 16px;
-  }
 }
 @media only screen and (min-width: 1440px) {
   .client-reviews-list {
@@ -53,6 +43,7 @@
   }
 }
 .client-reviews-item {
+  width: 344px;
   border-radius: 8px;
   background: var(--white, #fff);
   background-color: var(--white);
@@ -61,6 +52,7 @@
 }
 @media only screen and (min-width: 1440px) {
   .client-reviews-item {
+    width: 424px;
     padding: 32px;
   }
 }
@@ -97,6 +89,8 @@
 .client-reviews-text-wrapper {
 }
 .client-name {
+  margin-bottom: 2px;
+
   font-size: 18px;
   font-weight: 700;
   line-height: 1.7;
@@ -104,16 +98,19 @@
 }
 @media only screen and (min-width: 768px) {
   .clients-name {
+    line-height: 2.25;
     font-size: 20px;
+    margin-bottom: 4px;
   }
 }
 .clients-last-visit {
   font-size: 14px;
   line-height: 1.3;
-  opacity: 0.8;
+  color: rgba(10, 34, 74, 0.8);
 }
 @media only screen and (min-width: 768px) {
   .clients-last-visit {
+    line-height: 1.5;
     font-size: 16px;
   }
 }
@@ -124,5 +121,6 @@
 @media only screen and (min-width: 768px) {
   .client-review-text {
     font-size: 18px;
+    line-height: 1.5;
   }
 }
