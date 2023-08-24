@@ -42,8 +42,9 @@ body {
 
 .main-btn {
   display: inline-block;
-  min-height: 50px;
+  max-height: 50px;
   min-width: 224px;
+  max-width: 100%;
   padding: 12px 65px;
 
   color: var(--white);
@@ -65,7 +66,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .main-btn {
-    padding: 17px 65px;
+    padding: 13px 65px;
 
     font-size: 18px;
     line-height: 1.33;
