@@ -26,7 +26,6 @@ body {
 }
 
 .subtitle {
-  color: var(--blue);
   font-size: 28px;
   font-weight: 400;
   line-height: 1.5;
@@ -51,7 +50,6 @@ body {
   background-color: var(--blue);
   border: none;
 
-  font-size: 16px;
   line-height: 1.5;
   text-align: center;
 
@@ -68,7 +66,6 @@ body {
   .main-btn {
     padding: 13px 65px;
 
-    font-size: 18px;
     line-height: 1.33;
   }
 }
