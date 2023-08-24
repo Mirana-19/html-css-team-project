@@ -27,8 +27,8 @@
     justify-content: space-between;
     height: 700px;
 
-    background-image: url(../img/hero/img-1_tab.jpg),
-      url(../img/hero/img-2_tab.jpg);
+    background-image: url(../../img/hero/img-1_tab.jpg),
+      url(../../img/hero/img-2_tab.jpg);
     background-size:
       308px 329px,
       356px 532px;
