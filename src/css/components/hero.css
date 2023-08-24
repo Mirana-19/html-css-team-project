@@ -15,7 +15,6 @@
     padding-top: 140px;
     padding-bottom: 313px;
     background-image: url(../../img/hero/img-1_mob.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
   }
 }
@@ -38,6 +37,39 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+
+    background-image: url(../../img/hero/img-1_tab.jpg),
+      url(../../img/hero/img-2_tab.jpg);
+    background-size:
+      308px 329px,
+      356px 532px;
+    background-position:
+      left 32px top 202px,
+      right 32px top 0px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .hero-container {
+    height: 530px;
+    background-image: url(../../img/hero/img-1_desk.jpg),
+      url(../../img/hero/img-2_desk.jpg), url(../../img/hero/img-3_desk.jpg);
+
+    background-size:
+      310px 329px,
+      648px 530px,
+      312px 337px;
+    background-position:
+      left 60px bottom 0,
+      left 395px bottom 0,
+      right 60px top 0;
+  }
+}
 .hero-title {
   width: 285px;
   margin-bottom: 14px;
@@ -58,14 +90,19 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .hero-thumb-container {
+    align-self: flex-end;
+  }
+}
+
 .hero-text {
   margin-bottom: 28px;
-  font-size: 16px;
 }
 @media only screen and (min-width: 768px) {
   .hero-text {
     width: 312px;
-    font-size: 18px;
+
     margin-bottom: 30px;
   }
 }
