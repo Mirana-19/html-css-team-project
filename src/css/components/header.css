@@ -37,3 +37,34 @@ header {
 }
 
 /* =============================-----header-mobile------///// ----END------ /////============================= */
+
+
+/* ---------------xxxxxxxxxxxx tablet header xxxxxxxxxxxxxxx------------------ */
+
+@media only screen and (min-width: 767.98px) {
+  .header-menu-btn-order-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
+/* -x-x-x- header desktop -x-x-x- */
+
+@media only screen and (min-width: 1440px) {
+
+  .header-mobile-btn-order {
+    display: none;
+
+  }
+  .header-nav {
+    display: flex;
+  }
+
+  .header-nav-list {
+    display: flex;
+  align-items: center;
+  gap: 30px;
+  }
+}
