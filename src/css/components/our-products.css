@@ -78,6 +78,7 @@
 .products-img {
   width: 100%;
   filter: blur(0);
+  transition: filter var(--time) var(--cubic);
 }
 .products-item:hover .products-img {
   filter: blur(4px);
