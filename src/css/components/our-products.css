@@ -38,6 +38,11 @@
 
 .products-item {
   position: relative;
+  transition: box-shadow var(--time) var(--cubic);
+}
+.products-item:hover,
+.products-item:focus {
+  position: relative;
   box-shadow: var(--shadow);
 }
 
@@ -65,7 +70,6 @@
   }
 }
 .products-link {
-
 }
 .backdrop-wrapper {
   position: relative;
@@ -77,9 +81,7 @@
 }
 .products-item:hover .products-img {
   filter: blur(4px);
-
 }
-
 
 .backdrop-text {
   position: absolute;
