@@ -38,6 +38,10 @@
 
 .products-item {
   position: relative;
+  transition: box-shadow var(--time) var(--cubic);
+}
+.products-item:hover {
+  box-shadow: var(--shadow);
 }
 
 @media only screen and (max-width: 767px) {
@@ -64,12 +68,14 @@
   }
 }
 .products-link {
-  transition: box-shadow var(--time) var(--cubic);
+  display: block;
 }
-.products-link:hover,
-.products-link:focus {
+.products-link:focus,
+.products-link:hover {
   box-shadow: var(--shadow);
-}
+  outline: none;
+} 
+
 .backdrop-wrapper {
   position: relative;
   overflow: hidden;
