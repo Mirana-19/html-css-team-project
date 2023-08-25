@@ -33,12 +33,18 @@
         justify-content: center;
     }
 }
- @media screen and (min-width: 374.98px) {
+.title-subscription {
+    margin-bottom: 20px;
+}
+ @media screen and (max-width: 375px) {
   .title-subscription {
     text-align: center;}
 }  
- 
-
+@media screen and (min-width: 768px){
+    .title-subscription {
+        margin-bottom: 30px;
+    }
+}
 
 @media screen and (min-width: 1440px) {
     .form-desktop {
@@ -47,7 +53,6 @@
 }
 
 .subscription-text {
-margin-top: 20px;
 margin-bottom: 30px;
 }
 
@@ -81,8 +86,7 @@ margin-bottom: 30px;
     border-radius: 4px;
     border: 1px solid var(--gray);
     outline: transparent;
-    transition: fill var(--time) var(--cubic),
-    scale var(--time) var(--cubic);
+    transition: fill var(--time) var(--cubic);
     width: 100%;
     height: 50px;
 }
@@ -128,8 +132,7 @@ color: var(--light-gray);
   opacity: 0;
   pointer-events: none;
   fill: #E74A3B;
-  transition: fill var(--time) var(--cubic),
-    scale var(--time) var(--cubic);
+  transition: opacity var(--time) var(--cubic);
 }
 
 .form-input input:valid + .form-icon {
@@ -138,7 +141,7 @@ color: var(--light-gray);
 
 .form-input:not(:placeholder-shown):required:invalid + .form-icon {
     opacity: 1;
-    transform: translateY(-50%) scale(1);
+    transform: translateY(-50%);
 }
 
 .checkbox-container {
@@ -156,6 +159,7 @@ color: var(--light-gray);
     height: 25px; 
     border: 1px solid var(--dark-grey);
     margin-right: 8px;
+    transition: background-color var(--time) var(--cubic);
 }
 
 .form-checkbox:checked + .checkbox-text .form-icon-span {
