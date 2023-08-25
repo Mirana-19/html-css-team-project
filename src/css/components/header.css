@@ -8,8 +8,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 36px;
-  padding-bottom: 16px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   position: relative;
 }
 
@@ -19,10 +19,6 @@ header {
 
 .header-nav-list {
   display: flex;
-}
-
-.header-mobile-btn-order {
-  display: block;
   align-items: center;
   margin-left: auto;
   padding-top: 28px;
@@ -31,9 +27,49 @@ header {
   background-color: transparent;
 }
 
-.header-mobile-btn-order :hover,
-.header-mobile-btn-order :focus {
+.burger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  stroke: #0a224a;
+}
+
+.burger-btn:hover,
+.burger-btn:focus {
   background-color: transparent;
 }
 
 /* =============================-----header-mobile------///// ----END------ /////============================= */
+
+/* =======================x Tablet x=========================== */
+
+@media only screen and (min-width: 767.98px) {
+  .burger-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* -x-x-x- header desktop -x-x-x- */
+
+@media only screen and (min-width: 1440px) {
+  .header-container {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  .burger-btn {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+  }
+
+  .header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
