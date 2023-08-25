@@ -14,17 +14,12 @@
 }
 
 .products-title {
-  font-size: 28px;
-  font-weight: 400;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 33px;
 }
 @media only screen and (min-width: 768px) {
   .products-title {
     margin-bottom: 30px;
-    font-size: 32px;
-    line-height: 1.41;
   }
 }
 .products-list {
