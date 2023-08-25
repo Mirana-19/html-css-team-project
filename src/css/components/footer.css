@@ -32,8 +32,8 @@ footer {
 .footer-logo {
   fill: var(--white);
   scale: 1;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--time) var(--cubic),
+    scale var(--time) var(--cubic);
 }
 .footer-logo:hover,
 .footer-logo:hover {
@@ -78,7 +78,7 @@ footer {
 .footer-nav-link {
   color: var(--white);
   font-size: 16px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--time) var(--cubic);
 }
 .footer-nav-link:focus,
 .footer-nav-link:hover {
@@ -105,8 +105,8 @@ footer {
 }
 .footer-icons {
   fill: var(--white);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill var(--time) var(--cubic),
+    scale var(--time) var(--cubic);
   scale: 1;
 }
 .footer-soc-link:hover .footer-icons {
@@ -156,7 +156,7 @@ footer {
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.01em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--time) var(--cubic);
 }
 .address-map-item:first-child .address-map-link:hover {
   color: #add8e6;
@@ -192,7 +192,7 @@ footer {
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.01em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--time) var(--cubic);
 }
 .address-tel-link:hover,
 .address-tel-link:focus {
@@ -206,7 +206,7 @@ footer {
 }
 .address-email {
   display: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--time) var(--cubic);
 }
 .address-email:focus,
 .address-email:hover {
