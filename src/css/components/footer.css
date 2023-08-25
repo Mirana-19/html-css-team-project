@@ -36,7 +36,7 @@ footer {
     scale var(--time) var(--cubic);
 }
 .footer-logo:hover,
-.footer-logo:hover {
+.footer-logo:focus {
   fill: #add8e6;
   scale: 1.2;
 
