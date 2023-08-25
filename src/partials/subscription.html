@@ -1,58 +1,64 @@
 <section class="section-subscription" id="subscribe">
-  <div class="container">
-    <h2 class="subtitle title-subscription">Newsletter</h2>
-    <p class="subscription-text">
-      Every week we will send you new designs and information about sales.
-    </p>
-    <form class="form-container">
-      <label for="user-name" class="form-label">
-        <input
-          class="form-input"
-          type="text"
-          name="user-name"
-          required
-          minlength="2"
-          maxlength="16"
-          placeholder="Name"
-          id="user-name"
-        />
-      </label>
-
-      <label for="user-email" class="form-label">
-        <input
-          class="form-input"
-          type="email"
-          name="form-email"
-          required
-          minlength="2"
-          maxlength="16"
-          placeholder="E-mail"
-          id="user-email"
+  <div class="container subscription-container">
+    <div class="form-desktop">
+      <h2 class="subtitle title-subscription">Newsletter</h2>
+      <p class="subscription-text">
+        Every week we will send you new designs and information about sales.
+      </p>
+      <form class="form-container">
+        <label for="user-name" class="form-label">
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            required
+            minlength="2"
+            maxlength="16"
+            placeholder="Name"
+            id="user-name"
+          
         />
         <svg class="form-icon" width="20" height="20">
           <use href="./img/sprite.svg#icon-error"></use>
         </svg>
-      </label>
+        </label>
 
-      <div class="checkbox-container">
-        <input
-          type="checkbox"
-          name="user-privacy"
-          value="true"
-          id="user-privacy"
-          class="visually-hidden form-checkbox"
-        />
-        <label for="user-privacy" class="checkbox-text">
-          <span class="form-icon-span"
-            ><svg class="icon-check" width="13" height="13">
-              <use href="./img/sprite.svg#icon-check"></use>
-            </svg>
-          </span>
-          <span>Agree to subscribe to the newsletter</span></label
-        >
-      </div>
-      <button class="main-btn" type="submit">Send</button>
-    </form>
+        <label for="user-email" class="form-label">
+          <input
+            class="form-input"
+            type="email"
+            name="form-email"
+            required
+            minlength="2"
+            maxlength="16"
+            placeholder="E-mail"
+            id="user-email"
+          />
+          <svg class="form-icon" width="20" height="20">
+            <use href="./img/sprite.svg#icon-error"></use>
+          </svg>
+        </label>
+
+        <div class="checkbox-container">
+          <input
+            type="checkbox"
+            name="user-privacy"
+            value="true"
+            id="user-privacy"
+            class="visually-hidden form-checkbox"
+          />
+          <label for="user-privacy" class="checkbox-text">
+            <span class="form-icon-span"
+              ><svg class="icon-check" width="13" height="13">
+                <use href="./img/sprite.svg#icon-check"></use>
+              </svg>
+            </span>
+            <span>Agree to subscribe to the newsletter</span></label
+          >
+        </div>
+        <button class="main-btn" type="submit">Send</button>
+      </form>
+    </div>
     <div class="subscription-image">
       <picture>
         <!-- desktop -->
@@ -62,6 +68,7 @@
             ./img/newsletter/img-1_desk.jpg    1x,
             ./img/newsletter/img-1_desk@2x.jpg 2x
           "
+          sizes="(min-width: 1440px) 460px, 100vw"
         />
         <!-- tablet -->
         <source
@@ -70,6 +77,7 @@
             ./img/newsletter/img-1_tab.jpg    1x,
             ./img/newsletter/img-1_tab@2x.jpg 2x
           "
+          sizes="(min-width: 768px) 704px, 100vw"
         />
         <!-- phone -->
         <source
@@ -78,6 +86,7 @@
             ./img/newsletter/img-1_mob.jpg    1x,
             ./img/newsletter/img-1_mob@2x.jpg 2x
           "
+          sizes="(max-width: 767.98px) 343px, 100vw"
         />
 
         <img

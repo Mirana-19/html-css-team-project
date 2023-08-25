@@ -10,8 +10,7 @@ header {
   align-items: center;
   padding-top: 28px;
   padding-bottom: 28px;
-  position: relative;
-}
+ }
 
 .header-nav {
   display: none;
@@ -21,8 +20,7 @@ header {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-bottom: 17px;
   border: none;
   background-color: transparent;
 }

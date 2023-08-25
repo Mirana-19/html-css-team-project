@@ -2,30 +2,71 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
-@media (min-width:768px){
+@media screen and (min-width:768px){
     .section-subscription {
         padding-top: 100px;
         padding-bottom: 100px;
     } 
 }
 
-.title-subscription {
-    text-align: center;
-}
-
-@media (min-width:768px) {
-    .title-subscription {
-        text-align: left;
+@media screen and (min-width:1440px) {
+    .section-subscription {
+        padding-top: 100px;
+        padding-bottom: 86px;
     }
 }
+@media screen and (max-width: 767.98px){
+ .subscription-container {
+    margin-bottom: 30px;
+}   
+}
+
+@media screen and (min-width:768px) and (min-width: 1439.98px) {
+    .subscription-container {
+        margin-bottom: 64px 
+    }
+}
+@media screen and (min-width: 1440px) {
+    .subscription-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.title-subscription {
+    margin-bottom: 20px;
+}
+ @media screen and (max-width: 375px) {
+  .title-subscription {
+    text-align: center;}
+}  
+@media screen and (min-width: 768px){
+    .title-subscription {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .form-desktop {
+        margin-right: 100px;
+    }
+}
+
 .subscription-text {
-    color: var(--blue);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-margin-top: 20px;
 margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+    .subscription-text {
+        max-width: 536px;
+    } 
+}
+
+@media screen and (min-width:768px) {
+    .form-label{
+    max-width: 536px;    
+    }
+    
 }
 
 .form-label {
@@ -45,14 +86,14 @@ margin-bottom: 30px;
     border-radius: 4px;
     border: 1px solid var(--gray);
     outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill var(--time) var(--cubic);
     width: 100%;
     height: 50px;
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px)  {
     .form-input{
-        width: 536px;
+        width: 100%;
     }
     
 }
@@ -74,8 +115,13 @@ color: var(--light-gray);
     border: 1px solid var(--blue)
 }
 .form-container {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     position: relative;
+
+}
+@media screen and (min-width: 768px) {
+    .form-container {
+}
 }
 
 .form-icon {
@@ -86,13 +132,7 @@ color: var(--light-gray);
   opacity: 0;
   pointer-events: none;
   fill: #E74A3B;
-  transition: opacity 400ms transform 400ms;
-}
-
-@media (min-width:768px) {
-    .form-icon {
-        right: 188px;
-    }
+  transition: opacity var(--time) var(--cubic);
 }
 
 .form-input input:valid + .form-icon {
@@ -101,7 +141,7 @@ color: var(--light-gray);
 
 .form-input:not(:placeholder-shown):required:invalid + .form-icon {
     opacity: 1;
-    transform: translateY(-50%) scale(1);
+    transform: translateY(-50%);
 }
 
 .checkbox-container {
@@ -119,11 +159,7 @@ color: var(--light-gray);
     height: 25px; 
     border: 1px solid var(--dark-grey);
     margin-right: 8px;
-}
-
-.form-icon-span svg {
-    width: 13px; 
-    height: 13px;
+    transition: background-color var(--time) var(--cubic);
 }
 
 .form-checkbox:checked + .checkbox-text .form-icon-span {
@@ -142,8 +178,37 @@ color: var(--light-gray);
 }
 
 .subscription-image {
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
+
+
+@media screen and (min-width: 1440px) {
+    .subscription-image picture img {
+      width: 460px;
+      height: 410px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .subscription-image picture img {
+      max-width: 704px;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .subscription-image picture img {
+      max-width: 343px;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .subscription-image picture img {
+      max-width: 320px;
+      height: auto;
+    }
+  }
