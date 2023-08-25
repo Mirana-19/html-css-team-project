@@ -34,8 +34,9 @@ footer {
 }
 
 .footer-nav {
-    margin-bottom: 36px;
+  margin-bottom: 36px;
 }
+
 @media only screen and (min-width: 767.98px) {
   .footer-nav {
     position: absolute;
@@ -43,7 +44,6 @@ footer {
     left: 400px;
     padding: 8px;
     margin-bottom: 0px;
-
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -59,22 +59,28 @@ footer {
   gap: 8px;
 }
 @media only screen and (min-width: 1440px) {
-    .footer-nav-list {
-        flex-direction: row;
-        gap: 30px;
-      }
+  .footer-nav-list {
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 .footer-nav-item {
 }
 .footer-nav-link {
   color: var(--white);
   font-size: 16px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+.footer-nav-link:focus,
+.footer-nav-link:hover {
+  color: #add8e6;
+}
+
 @media only screen and (min-width: 767.98px) {
   .footer-nav-link {
     font-size: 18px;
   }
-  
 }
 .footer-soc-list {
   display: flex;
@@ -101,10 +107,10 @@ footer {
 .footer-address {
 }
 @media only screen and (min-width: 1440px) {
-    .footer-address {
-        display: flex;
-        margin-bottom: 35px;
-    }
+  .footer-address {
+    display: flex;
+    margin-bottom: 35px;
+  }
 }
 
 .footer-address-map {
@@ -119,10 +125,10 @@ footer {
   }
 }
 @media only screen and (min-width: 1440px) {
-    .footer-address-map {
-        margin-bottom: 0px;
-        margin-right: 87px;
-      }
+  .footer-address-map {
+    margin-bottom: 0px;
+    margin-right: 87px;
+  }
 }
 .address-map-item {
 }
@@ -132,6 +138,11 @@ footer {
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.01em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.address-map-item:first-child .address-map-link:hover {
+  color: #add8e6;
 }
 @media only screen and (min-width: 767.98px) {
   .address-map-link {
@@ -148,14 +159,13 @@ footer {
 @media only screen and (min-width: 767.98px) {
   .footer-address-tel {
     margin-bottom: 24px;
-    
   }
 }
 @media only screen and (min-width: 1440px) {
-    .footer-address-tel {
-        margin-bottom: 0px;
-        margin-right: 82px;
-      }
+  .footer-address-tel {
+    margin-bottom: 0px;
+    margin-right: 82px;
+  }
 }
 .address-tel-item {
 }
@@ -165,12 +175,18 @@ footer {
   font-style: normal;
   line-height: normal;
   letter-spacing: 0.01em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.address-tel-link:hover,
+.address-tel-link:focus {
+  color: #add8e6;
+}
+
 @media only screen and (min-width: 767.98px) {
-    .address-tel-link {
-      font-size: 19px;
-    }
+  .address-tel-link {
+    font-size: 19px;
   }
+}
 .address-email {
   display: none;
 }
@@ -186,10 +202,9 @@ footer {
   }
 }
 @media only screen and (min-width: 1440px) {
-    .address-email {
-        margin-bottom: 0px;
-
-    }
+  .address-email {
+    margin-bottom: 0px;
+  }
 }
 
 .footer-box {
