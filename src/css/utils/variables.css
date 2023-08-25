@@ -9,4 +9,7 @@
   --white: #ffffff;
   /* margin */
   --centered: 0 auto;
+  /* transition */
+  --time: 250ms;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
