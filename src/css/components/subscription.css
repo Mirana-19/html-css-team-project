@@ -205,3 +205,10 @@ color: var(--light-gray);
       height: auto;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .subscription-image picture img {
+      max-width: 320px;
+      height: auto;
+    }
+  }
