@@ -2,22 +2,38 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
-@media (min-width:768px){
+@media screen and (min-width:768px){
     .section-subscription {
         padding-top: 100px;
         padding-bottom: 100px;
     } 
 }
 
+@media screen and (min-width:1440px) {
+    .section-subscription {
+        padding-top: 100px;
+        padding-bottom: 86px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .subscription-container{
+        display: flex;
+    }
+}
+
 .title-subscription {
     text-align: center;
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .title-subscription {
         text-align: left;
     }
+    .form-desktop {
+        margin-right: 100px;
+    }
 }
+
 .subscription-text {
     color: var(--blue);
 font-size: 16px;
@@ -26,6 +42,13 @@ font-weight: 400;
 line-height: 24px;
 margin-top: 20px;
 margin-bottom: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .form-label{
+    max-width: 536px;    
+    }
+    
 }
 
 .form-label {
@@ -45,14 +68,15 @@ margin-bottom: 30px;
     border-radius: 4px;
     border: 1px solid var(--gray);
     outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill var(--time) var(--cubic),
+    scale var(--time) var(--cubic);
     width: 100%;
     height: 50px;
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px)  {
     .form-input{
-        width: 536px;
+        width: 100%;
     }
     
 }
@@ -86,14 +110,12 @@ color: var(--light-gray);
   opacity: 0;
   pointer-events: none;
   fill: #E74A3B;
-  transition: opacity 400ms transform 400ms;
+  transition: fill var(--time) var(--cubic),
+    scale var(--time) var(--cubic);
 }
 
-@media (min-width:768px) {
-    .form-icon {
-        right: 188px;
-    }
-}
+
+
 
 .form-input input:valid + .form-icon {
     opacity: 0;
@@ -121,11 +143,6 @@ color: var(--light-gray);
     margin-right: 8px;
 }
 
-.form-icon-span svg {
-    width: 13px; 
-    height: 13px;
-}
-
 .form-checkbox:checked + .checkbox-text .form-icon-span {
     background-color: var(--blue);
     border: none;
@@ -147,3 +164,17 @@ color: var(--light-gray);
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+    .subscription-image picture img {
+      max-width: 704px;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .subscription-image picture img {
+      max-width: 343px;
+      height: auto;
+    }
+  }
