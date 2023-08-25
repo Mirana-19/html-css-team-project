@@ -214,8 +214,7 @@ footer {
 .footer-box {
 }
 .footer-text {
-  opacity: 0.6;
-  color: var(--white);
+  color: rgb(255, 255, 255, 0.6);
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.1em;
@@ -229,10 +228,6 @@ footer {
   }
 }
 
-.footer-service {
-}
 .footer-link {
   text-decoration-line: underline;
-}
-.footer-privacy {
 }
