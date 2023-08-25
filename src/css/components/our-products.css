@@ -38,6 +38,7 @@
 
 .products-item {
   position: relative;
+  box-shadow: var(--shadow);
 }
 
 @media only screen and (max-width: 767px) {
@@ -104,14 +105,18 @@
 .products-item:focus .backdrop-text {
   transform: translateY(0);
 }
+.box-subtitle {
+  padding: 15px;
+}
 .products-subtitle {
-  margin-top: 16px;
+  /* margin-top: 16px; */
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .products-subtitle {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     font-size: 18px;
   }
 }
