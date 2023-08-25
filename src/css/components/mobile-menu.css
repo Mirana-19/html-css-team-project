@@ -1,17 +1,14 @@
 
 .mobile-menu {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: fixed; 
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
   z-index: 9999;
   background-color: var(--white);
-  transition: var(--time), var(--cubic);
+  transition: transform var(--time) var(--cubic);
+  transform: translate(-100%);
   visibility: hidden;
 }
 
@@ -60,7 +57,8 @@
 }
 
 .mobile-menu.is-open {
-transform: translate(0);
+transform: translateX(0);
+
 }
 
 
