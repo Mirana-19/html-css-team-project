@@ -92,6 +92,24 @@
       left 60px bottom 0,
       left 395px bottom 0,
       right 60px top 0;
+    animation: background-position 500ms linear;
+    animation-delay: 100ms;
+    animation-fill-mode: both;
+  }
+  @keyframes background-position {
+    0% {
+      background-position:
+        left 60px bottom -349px,
+        left 395px bottom 0,
+        right 60px top -357px;
+    }
+
+    100% {
+      background-position:
+        left 60px bottom 0,
+        left 395px bottom 0,
+        right 60px top 0;
+    }
   }
 }
 
