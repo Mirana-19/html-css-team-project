@@ -2,6 +2,10 @@
 
 header {
   background-color: var(--section-bg);
+  top: 0;
+  position: sticky;
+  z-index: 10;
+  border-bottom: 4px solid white;
 }
 
 .header-container {
@@ -10,7 +14,6 @@ header {
   align-items: center;
   padding-top: 28px;
   padding-bottom: 28px;
-  position: relative;
 }
 
 .header-nav {
@@ -21,8 +24,6 @@ header {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-top: 28px;
-  padding-bottom: 28px;
   border: none;
   background-color: transparent;
 }
@@ -71,5 +72,11 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    color:  #4d5ae5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

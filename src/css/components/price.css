@@ -16,22 +16,19 @@
   }
 }
 .price-item {
+  display: flex;
+  align-items: center;
   border-top: 1px solid var(--blue);
 }
 .price-item:last-child {
   border-bottom: 1px solid var(--blue);
 }
-.price-item {
-  color: var(--blue);
-  font-size: 28px;
-  line-height: 1.5;
-}
 .price-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 0;
+  position: relative;
+  padding: 30px 100px 30px 0;
   text-transform: uppercase;
+  transform: translateX(1px);
+  transition: transform 500ms var(--cubic);
 }
 @media only screen and (max-width: 320px) {
   .price-link {
@@ -45,17 +42,31 @@
     line-height: 1.4;
   }
 }
-
-.price-link:hover::before,
-.price-link:focus::before {
-  display: block;
+.price-link::before {
+  position: absolute;
+  top: 50%;
+  left: -50px;
   content: '';
+  display: inline-block;
   width: 35px;
   height: 2px;
   background-color: var(--blue);
   margin-right: 15px;
+  opacity: 0;
+  transition: opacity var(--time) var(--cubic),
+    transform var(--time) var(--cubic);
 }
+.price-link:hover::before,
+.price-link:hover::before {
+  opacity: 1;
+}
+.price-link:hover,
+.price-link:focus {
+  transform: translateX(50px);
+}
+
 .price-cost {
+  position: static;
   font-size: 16px;
   color: var(--blue);
   font-weight: 700;
