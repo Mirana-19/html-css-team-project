@@ -42,9 +42,10 @@ body {
 
 .main-btn {
   display: inline-block;
-  max-height: 50px;
+  min-height: 50px;
   min-width: 224px;
-  max-width: 100%;
+  max-width: 300px;
+
   padding: 12px 65px;
 
   color: var(--white);
@@ -53,15 +54,18 @@ body {
 
   line-height: 1.5;
   text-align: center;
+  white-space: normal;
 
-  transition: background-color var(--time) var(--cubic),
+  transition:
+    background-color var(--time) var(--cubic),
     box-shadow var(--time) var(--cubic);
 }
 
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--active);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
