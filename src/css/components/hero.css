@@ -19,6 +19,12 @@
   }
 }
 
+@media only screen and (min-resolution: 192dpi) and (max-width: 767.98px) {
+  .hero-container {
+    background-image: url(../../img/hero/img-1_mob@2x.jpg);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero-container {
     display: flex;
@@ -46,6 +52,24 @@
 
     background-image: url(../../img/hero/img-1_tab.jpg),
       url(../../img/hero/img-2_tab.jpg);
+    background-size:
+      308px 329px,
+      356px 532px;
+    background-position:
+      left 32px top 202px,
+      right 32px top 0px;
+  }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+
+    background-image: url(../../img/hero/img-1_tab@2x.jpg),
+      url(../../img/hero/img-2_tab@2x.jpg);
     background-size:
       308px 329px,
       356px 532px;
@@ -68,6 +92,32 @@
       left 60px bottom 0,
       left 395px bottom 0,
       right 60px top 0;
+    animation: background-position 500ms linear;
+    animation-delay: 100ms;
+    animation-fill-mode: both;
+  }
+  @keyframes background-position {
+    0% {
+      background-position:
+        left 60px bottom -349px,
+        left 395px bottom 0,
+        right 60px top -357px;
+    }
+
+    100% {
+      background-position:
+        left 60px bottom 0,
+        left 395px bottom 0,
+        right 60px top 0;
+    }
+  }
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 1440px) {
+  .hero-container {
+    background-image: url(../../img/hero/img-1_desk@2x.jpg),
+      url(../../img/hero/img-2_desk@2x.jpg),
+      url(../../img/hero/img-3_desk@2x.jpg);
   }
 }
 .hero-title {
@@ -81,11 +131,23 @@
   font-size: 28px;
 }
 
+@media only screen and (max-width: 767.98px) {
+  .hero-title {
+    min-height: 126px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero-title {
     width: 648px;
     margin-bottom: 0;
     font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .hero-thumb-container {
+    min-height: 124px;
   }
 }
 

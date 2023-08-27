@@ -1,13 +1,13 @@
 .mobile-menu {
   position: fixed;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: 9999;
   background-color: var(--white);
   transform: translateX(-100%);
-  transition: transform .5s cubic-bezier(0.65, 0.87, 0.45, 0.29);
+  transition: transform var(--time) var(--cubic);
 }
 
 .is-open {

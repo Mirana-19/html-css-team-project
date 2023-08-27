@@ -2,6 +2,10 @@
 
 header {
   background-color: var(--section-bg);
+  top: 0;
+  position: sticky;
+  z-index: 10;
+  border-bottom: 4px solid white;
 }
 
 .header-logo-icon {
