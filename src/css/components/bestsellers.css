@@ -28,8 +28,6 @@
 @media screen and (min-width: 768px) {
   .bestsellers-section-title {
     max-width: 205px;
-    font-size: 32px;
-    line-height: 1.4em;
     margin-bottom: 30px;
   }
 }
@@ -73,7 +71,6 @@
 @media screen and (min-width: 768px) {
   .main-bestseller-price {
     max-width: 396px;
-    font-size: 18px;
   }
 }
 
@@ -140,10 +137,4 @@
 .other-bestsellers-price {
   max-width: 258px;
   font-weight: 700;
-}
-
-@media screen and (min-width: 768px) {
-  .other-bestsellers-price {
-    font-size: 18px;
-  }
 }

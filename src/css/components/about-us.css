@@ -81,16 +81,12 @@
 @media screen and (min-width: 768px) {
   .about-subtitle {
     max-width: 576px;
-    font-size: 32px;
-    line-height: 1.4;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .about-subtitle {
     max-width: 622px;
-    font-size: 32px;
-    line-height: 1.4;
   }
 }
 
@@ -102,14 +98,12 @@
 @media screen and (min-width: 768px) {
   .about-subtitle-text {
     max-width: 576px;
-    font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .about-subtitle-text {
     max-width: 622px;
-    font-size: 18px;
   }
 }
 
@@ -158,10 +152,4 @@
   .about-item-text {
     font-size: 18px;
   }
-}
-
-.about-image-wrapper {
-}
-
-.about-image {
 }
