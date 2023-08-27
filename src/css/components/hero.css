@@ -131,11 +131,23 @@
   font-size: 28px;
 }
 
+@media only screen and (max-width: 767.98px) {
+  .hero-title {
+    min-height: 126px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero-title {
     width: 648px;
     margin-bottom: 0;
     font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .hero-thumb-container {
+    min-height: 124px;
   }
 }
 
