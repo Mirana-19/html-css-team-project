@@ -20,6 +20,13 @@ header {
   padding-bottom: 28px;
 }
 
+@media only screen and (max-width: 767.98px) {
+  .header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .header-nav {
   display: none;
 }
@@ -55,7 +62,6 @@ header {
     width: 40px;
     height: 40px;
   }
-  
 }
 
 /* -x-x-x- header desktop -x-x-x- */
@@ -80,7 +86,9 @@ header {
   }
 
   .header-menu-link {
-    padding: 8px;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 
   .header-menu-link:hover,
