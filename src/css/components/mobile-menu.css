@@ -7,7 +7,7 @@
   z-index: 9999;
   background-color: var(--white);
   transform: translateX(-100%);
-  transition: transform var(--time) var(--cubic);
+  transition: transform 500ms var(--cubic);
 }
 
 .is-open {
@@ -24,7 +24,6 @@
   padding-right: 16px;
   justify-content: space-between;
   align-items: center;
-  /* gap: 211px; */
   background-color: var(--section-bg);
 }
 
