@@ -4,6 +4,10 @@ header {
   background-color: var(--section-bg);
 }
 
+.header-logo-icon {
+  stroke: #0a224a;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
