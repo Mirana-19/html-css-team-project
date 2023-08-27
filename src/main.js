@@ -24,7 +24,9 @@ valueDisplays.forEach((valueDisplay) => {
   }, duration);
 });
 
-// ----------mobile pay--------------
+
+
+// ----------mobile menu--------------
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
@@ -65,7 +67,7 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
       const scrollTarget = document.getElementById(href);
 
       // const topOffset = document.querySelector('.scrollto').offsetHeight;
-      const topOffset = 80; // если не нужен отступ сверху  
+      const topOffset = 80;
       const elementPosition = scrollTarget.getBoundingClientRect().top;
       const offsetPosition = elementPosition - topOffset;
 
