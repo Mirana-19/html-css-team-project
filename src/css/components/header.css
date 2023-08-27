@@ -10,6 +10,17 @@ header {
 
 .header-logo-icon {
   stroke: #0a224a;
+  transform: scale(1);
+  transition:
+    transform var(--time) var(--cubic),
+    stroke var(--time) var(--cubic);
+}
+
+.header-logo-icon:hover,
+.header-logo-icon:focus {
+  stroke: #4d5ae5;
+  fill: #4d5ae5;
+  transform: scale(1.2);
 }
 
 .header-container {
