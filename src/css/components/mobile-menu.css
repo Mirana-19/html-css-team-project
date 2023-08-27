@@ -43,6 +43,10 @@
   padding-bottom: 17px;
 }
 
+.mobile-menu-link {
+  padding: 8px;
+}
+
 .mobile-menu-close-btn {
   display: flex;
   align-items: center;
