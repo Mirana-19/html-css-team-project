@@ -30,18 +30,7 @@
   transform: translateX(1px);
   transition: transform 500ms var(--cubic);
 }
-@media only screen and (max-width: 320px) {
-  .price-link {
-    font-size: 28px;
-    line-height: 1.5;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .price-link {
-    font-size: 32px;
-    line-height: 1.4;
-  }
-}
+
 .price-link::before {
   position: absolute;
   top: 50%;
@@ -53,7 +42,8 @@
   background-color: var(--blue);
   margin-right: 15px;
   opacity: 0;
-  transition: opacity var(--time) var(--cubic),
+  transition:
+    opacity var(--time) var(--cubic),
     transform var(--time) var(--cubic);
 }
 .price-link:hover::before,
@@ -66,11 +56,8 @@
 }
 
 .price-cost {
-  position: static;
   font-size: 16px;
-  color: var(--blue);
   font-weight: 700;
-  line-height: 1.5;
   margin-left: auto;
   text-transform: none;
 }
