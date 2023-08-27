@@ -31,13 +31,15 @@ footer {
 }
 .footer-logo {
   fill: var(--white);
-  scale: 1;
-  transition: fill var(--time) var(--cubic), scale var(--time) var(--cubic);
+  transform: scale(1);
+  transition:
+    fill var(--time) var(--cubic),
+    transform var(--time) var(--cubic);
 }
 .logo-link:hover .footer-logo,
 .logo-link:focus .footer-logo {
   fill: #add8e6;
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 .footer-nav {
@@ -103,16 +105,18 @@ footer {
 }
 .footer-icons {
   fill: var(--white);
-  transition: fill var(--time) var(--cubic), scale var(--time) var(--cubic);
-  scale: 1;
+  transition:
+    fill var(--time) var(--cubic),
+    transform var(--time) var(--cubic);
+  transform: scale(1);
 }
 .footer-soc-link:hover .footer-icons {
   fill: #add8e6;
-  scale: calc(1.2);
+  transform: scale(1.2);
 }
 .footer-soc-link:focus .footer-icons {
   fill: #add8e6;
-  scale: calc(1.2);
+  transform: scale(1.2);
 }
 @media only screen and (min-width: 767.98px) {
   .footer-icons {
