@@ -11,8 +11,7 @@ header {
 .header-logo-icon {
   stroke: #0a224a;
   transform: scale(1);
-  transition:
-    transform var(--time) var(--cubic),
+  transition: transform var(--time) var(--cubic),
     stroke var(--time) var(--cubic);
 }
 
