@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "html-css-team-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/html-css-team-project/",
+    "build": "vite build --base=/html_css-bcon_58-html-css-team-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
