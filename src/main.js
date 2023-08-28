@@ -31,6 +31,7 @@ valueDisplays.forEach((valueDisplay) => {
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const closeMobMenu = document.querySelectorAll('.close-mob-menu');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -46,6 +47,11 @@ valueDisplays.forEach((valueDisplay) => {
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
+
+  // close the mobile menu while choosing section
+  closeMobMenu.forEach((item) => {
+    item.addEventListener('click', toggleMenu);
+  });
 
   // Close the mobile menu on wider screens if the device orientation changes
   window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
