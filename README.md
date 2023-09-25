@@ -42,8 +42,9 @@ characters in length.
 
 ## Aim of the project
 
-In this team project we were able to use previously learned skills and apply
-them wornking in a team and under specific time range of 6 days.
+The primary objectives of this team project were to learn how to effectively
+work in a team, apply our previously acquired skills, and successfully operate
+within a specified 6-day time frame.
 
 ## Task management
 
