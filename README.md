@@ -31,12 +31,14 @@
 
 ## Description
 
-The landing page has adaptive layout with 3 breaking points (375, 768, 1440
-pixels) and responsive (between 320 and 375 pixels). Markup is compliant with
-HTML semantics. Images are adapted for different screen sizes and pixel density.
-Links from header smoothly scroll to corresponding sections. Side navigation
-menu is implemented in mobile version. Subscription form has implemented basic
-validation.
+The landing page features an adaptive layout with breakpoints at 375, 768, and
+1440 pixels, ensuring responsiveness for screens between 320 and 375 pixels
+wide.<br>The markup adheres to HTML semantics, and images are optimized for
+various screen sizes and pixel densities.<br>Links in the header smoothly scroll
+to their respective sections, and a mobile version includes a side navigation
+menu.<br>Additionally, the subscription form now includes basic validation, such
+as verifying valid email addresses and ensuring names are between 2 and 16
+characters in length.
 
 ## Aim of the project
 
