@@ -24,7 +24,7 @@
 <a align="center" href="https://github.com/Andrii-Bilyk">![GitHub](https://img.shields.io/badge/-Andrii-05122A?style=flat&logo=github)</a>
 <a align="center" href="https://github.com/SerhiiPochtovyk">![GitHub](https://img.shields.io/badge/-Serhii-05122A?style=flat&logo=github)</a>
 <a align="center" href="https://github.com/UlianaNad">![GitHub](https://img.shields.io/badge/-Uliana-05122A?style=flat&logo=github)</a>
-<a align="center" href="https://github.com/Tane4ka170">![GitHub](https://img.shields.io/badge/-Tania-05122A?style=flat&logo=github)</a>
+<a align="center" href="https://github.com/Tane4ka170">![GitHub](https://img.shields.io/badge/-Tanya-05122A?style=flat&logo=github)</a>
 <a align="center" href="https://github.com/Mirana-19">![GitHub](https://img.shields.io/badge/-Marta-05122A?style=flat&logo=github)</a>
 
 </span>
@@ -54,7 +54,7 @@ Codereview ◼ Section Hero
 ✅ Uliana Nadorozhna - Scrum master ◼ Task organization ◼ Section Prices
 +Clients ◼ JS animations
 
-✅ Tetiana Porolo - Section Subscrition ◼ creation of sprite.svg file for icons
+✅ Tetyana Porolo - Section Subscrition ◼ creation of sprite.svg file for icons
 
 ✅ Kyrylo Shyrokov - Section About us + Bestsellers ◼ Code review
 
