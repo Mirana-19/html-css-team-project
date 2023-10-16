@@ -20,7 +20,7 @@
 <span align="center">
 
 <a align="center" href="https://github.com/Kreal11">![GitHub](https://img.shields.io/badge/-Kyrylo-05122A?style=flat&logo=github)</a>
-<a align="center" href="https://github.com/nadiyniy">![GitHub](https://img.shields.io/badge/-Vladyslav-05122A?style=flat&logo=github)</a>
+<a align="center" href="https://github.com/nadiyniy">![GitHub](https://img.shields.io/badge/-Vlad-05122A?style=flat&logo=github)</a>
 <a align="center" href="https://github.com/Andrii-Bilyk">![GitHub](https://img.shields.io/badge/-Andrii-05122A?style=flat&logo=github)</a>
 <a align="center" href="https://github.com/SerhiiPochtovyk">![GitHub](https://img.shields.io/badge/-Serhii-05122A?style=flat&logo=github)</a>
 <a align="center" href="https://github.com/UlianaNad">![GitHub](https://img.shields.io/badge/-Uliana-05122A?style=flat&logo=github)</a>
